@@ -1,0 +1,102 @@
+<testsuite failures="1" name="src/test/java/features/Login.feature" skipped="0" tests="5" time="3.283021">
+  <testcase classname="src.test.java.features.Login" name="Hello Ashwini" time="0.089117">
+    <system-out>* def query = {status:'active',gender: 'female'} .......................... passed
+* print 'Ashwini' ......................................................... passed
+* print 'Dyanda' .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.Login" name="Hello Dyanda" time="0.024303">
+    <system-out>* def query = {status:'active',gender: 'female'} .......................... passed
+* print 'Ashwini' ......................................................... passed
+* print 'Dyanda' .......................................................... passed
+* def query = {status:'active',gender: 'female'} .......................... passed
+* def total = 200 ......................................................... passed
+* def passed = 180 ........................................................ passed
+* def failed = 10 ......................................................... passed
+* print 'Skipped =' + (total - passed - failed) ........................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.Login" name="JSON reader" time="0.032929">
+    <system-out>* def query = {status:'active',gender: 'female'} .......................... passed
+* print 'Ashwini' ......................................................... passed
+* print 'Dyanda' .......................................................... passed
+* def query = {status:'active',gender: 'female'} .......................... passed
+* def total = 200 ......................................................... passed
+* def passed = 180 ........................................................ passed
+* def failed = 10 ......................................................... passed
+* print 'Skipped =' + (total - passed - failed) ........................... passed
+* def query = {status:'active',gender: 'female'} .......................... passed
+* def jsonObject = ........................................................ passed
+* print jsonObject ........................................................ passed
+* print 'hello ' + jsonObject.Actors[1].children[1] ....................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.Login" name="Get User Details" time="2.722813">
+    <failure message="Login.feature:70 - path: $, actual: 0, expected: 1, reason: not equal (Integer)">* def query = {status:'active',gender: 'female'} .......................... passed
+* print 'Ashwini' ......................................................... passed
+* print 'Dyanda' .......................................................... passed
+* def query = {status:'active',gender: 'female'} .......................... passed
+* def total = 200 ......................................................... passed
+* def passed = 180 ........................................................ passed
+* def failed = 10 ......................................................... passed
+* print 'Skipped =' + (total - passed - failed) ........................... passed
+* def query = {status:'active',gender: 'female'} .......................... passed
+* def jsonObject = ........................................................ passed
+* print jsonObject ........................................................ passed
+* print 'hello ' + jsonObject.Actors[1].children[1] ....................... passed
+* def query = {status:'active',gender: 'female'} .......................... passed
+* def query1 = { id: 729051} .............................................. passed
+Given url 'https://gorest.co.in/public/v1/users' .......................... passed
+And params query .......................................................... passed
+And params query1 ......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def jsonResponse = response ............................................. passed
+* def count = jsonResponse.data.length .................................... passed
+* match count == 1 ........................................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Login.feature:70 - path: $, actual: 0, expected: 1, reason: not equal (Integer)&#13;
+	at ✽.* match count == 1 (Login.feature:70)&#13;
+
+* def username = jsonResponse.data[0].name ................................ skipped
+* print username .......................................................... skipped
+* match username == 'Gopi Kakkar' ......................................... skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.features.Login" name="User Not Found" time="0.413859">
+    <system-out>* def query = {status:'active',gender: 'female'} .......................... passed
+* print 'Ashwini' ......................................................... passed
+* print 'Dyanda' .......................................................... passed
+* def query = {status:'active',gender: 'female'} .......................... passed
+* def total = 200 ......................................................... passed
+* def passed = 180 ........................................................ passed
+* def failed = 10 ......................................................... passed
+* print 'Skipped =' + (total - passed - failed) ........................... passed
+* def query = {status:'active',gender: 'female'} .......................... passed
+* def jsonObject = ........................................................ passed
+* print jsonObject ........................................................ passed
+* print 'hello ' + jsonObject.Actors[1].children[1] ....................... passed
+* def query = {status:'active',gender: 'female'} .......................... passed
+* def query1 = { id: 729051} .............................................. passed
+Given url 'https://gorest.co.in/public/v1/users' .......................... passed
+And params query .......................................................... passed
+And params query1 ......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def jsonResponse = response ............................................. passed
+* def count = jsonResponse.data.length .................................... passed
+* match count == 1 ........................................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Login.feature:70 - path: $, actual: 0, expected: 1, reason: not equal (Integer)&#13;
+	at ✽.* match count == 1 (Login.feature:70)&#13;
+
+* def username = jsonResponse.data[0].name ................................ skipped
+* print username .......................................................... skipped
+* match username == 'Gopi Kakkar' ......................................... skipped
+* def query = {status:'active',gender: 'female'} .......................... passed
+Given url 'https://gorest.co.in/public/v1/users' .......................... passed
+And path '7255' ........................................................... passed
+When method GET ........................................................... passed
+Then status 404 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,1 @@
+{"features":1,"ignored":0,"efficiency":0.7500618460132511,"failures":{"src.test.java.features.Login":"Login.feature:70 - path: $, actual: 0, expected: 1, reason: not equal (Integer)"},"totalTime":3283.0207,"threads":1,"scenarios":5,"failed":1,"passed":4,"version":"0.9.6","elapsedTime":4377.0}

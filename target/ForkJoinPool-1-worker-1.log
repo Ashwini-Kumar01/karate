@@ -1,0 +1,228 @@
+16:38:56.300 not a js function or feature file: [type: NULL, value: null]
+16:38:56.410 [print] Ashwini
+16:38:56.413 [print] Dyanda
+16:38:56.424 not a js function or feature file: [type: NULL, value: null]
+16:38:56.449 [print] Skipped =10
+16:38:56.458 not a js function or feature file: [type: NULL, value: null]
+16:38:56.465 [print] {
+  "Actors": [
+    {
+      "name": "Tom Cruise",
+      "age": 56,
+      "Born At": "Syracuse, NY",
+      "Birthdate": "July 3, 1962",
+      "photo": "https://jsonformatter.org/img/tom-cruise.jpg",
+      "wife": null,
+      "weight": 67.5,
+      "hasChildren": true,
+      "hasGreyHair": false,
+      "children": [
+        "Suri",
+        "Isabella Jane",
+        "Connor"
+      ]
+    },
+    {
+      "name": "Robert Downey Jr.",
+      "age": 53,
+      "Born At": "New York City, NY",
+      "Birthdate": "April 4, 1965",
+      "photo": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg",
+      "wife": "Susan Downey",
+      "weight": 77.1,
+      "hasChildren": true,
+      "hasGreyHair": false,
+      "children": [
+        "Indio Falconer",
+        "Avri Roel",
+        "Exton Elias"
+      ]
+    }
+  ]
+}
+
+16:38:56.491 [print] hello Avri Roel
+16:38:56.497 not a js function or feature file: [type: NULL, value: null]
+16:38:57.883 request:
+1 > GET https://gorest.co.in/public/v1/users?status=active&gender=female&id=729051
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+
+16:38:59.202 response time in milliseconds: 1312.60
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7b34f0f44991c55c-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 05 Apr 2023 21:39:00 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mWss%2F2Q0NtAdHrm%2FjAEe7Zg1zyvT2kHXBZ%2FvBH0QKvmPOBK2ixReax2gXR8mVmcy3U3NqTF6j2cJIUUYndswa6HKhzL5rv6PBvFjrZxGyOEvrgE6zla3unXdz2QpQpc%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"7d0fad3944b5884d753950e7824069d3"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: e2827f37-9afa-4b60-b52c-4ad02c6f945f
+1 < x-runtime: 0.036185
+1 < x-xss-protection: 0
+{"meta":{"pagination":{"total":0,"pages":0,"page":1,"limit":10,"links":{"previous":null,"current":null,"next":null}}},"data":[]}
+
+16:38:59.204 [print] {
+  "data": [
+  ],
+  "meta": {
+    "pagination": {
+      "total": 0,
+      "pages": 0,
+      "limit": 10,
+      "links": {
+        "next": null,
+        "current": null,
+        "previous": null
+      },
+      "page": 1
+    }
+  }
+}
+
+16:38:59.222 assertion failed: path: $, actual: 0, expected: 1, reason: not equal (Integer)
+16:38:59.229 not a js function or feature file: [type: NULL, value: null]
+16:38:59.233 request:
+1 > GET https://gorest.co.in/public/v1/users/7255
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+
+16:38:59.637 response time in milliseconds: 395.96
+1 < 404
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7b34f0fa19de8140-ORD
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 05 Apr 2023 21:39:01 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IeUVBbmFd3TxkeUYALzJW28BvEy35yw2lh5CGiFO%2FLSStUdO3GJdvI7ltWfmPzFH95bRVOwyNMDyRWnXfntO3QLBZE53DG03agJZHbw6QjTYmOKvAHzQEPgSfjtUkhc%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: c3de28ac-6b7b-4af4-af32-33503feab3de
+1 < x-runtime: 0.018852
+1 < x-xss-protection: 0
+{"meta":null,"data":{"message":"Resource not found"}}
+
+cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 623c344a-62b5-466d-bd01-d55d0d04bc38
+1 < x-runtime: 0.018981
+1 < x-xss-protection: 0
+{"meta":null,"data":{"message":"Resource not found"}}
+
+source not found"}}
+
+     "gender": "female",
+      "name": "Msgr. Purushottam Desai",
+      "id": 713851,
+      "email": "desai_purushottam_msgr@emard.biz",
+      "status": "active"
+    },
+    {
+      "gender": "female",
+      "name": "Bhagirathi Nambeesan",
+      "id": 713849,
+      "email": "bhagirathi_nambeesan@mann-beier.co",
+      "status": "active"
+    },
+    {
+      "gender": "female",
+      "name": "Charuvrat Guneta",
+      "id": 711124,
+      "email": "guneta_charuvrat@witting-will.info",
+      "status": "active"
+    },
+    {
+      "gender": "female",
+      "name": "Mrs. Divjot Mehrotra",
+      "id": 693031,
+      "email": "mehrotra_divjot_mrs@anderson.biz",
+      "status": "active"
+    },
+    {
+      "gender": "female",
+      "name": "Miss Sushil Kapoor",
+      "id": 692199,
+      "email": "sushil_miss_kapoor@schamberger.info",
+      "status": "active"
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 644,
+      "pages": 65,
+      "limit": 10,
+      "links": {
+        "next": "https://gorest.co.in/public/v1/users?page=2",
+        "current": "https://gorest.co.in/public/v1/users?page=1",
+        "previous": null
+      },
+      "page": 1
+    }
+  }
+}
+
+20:14:41.073 [print] Anasuya Mukhopadhyay
+20:14:41.077 assertion failed: path: $, actual: 'Anasuya Mukhopadhyay', expected: 'Gopi Kakkar', reason: not equal
+20:14:41.083 not a js function or feature file: [type: NULL, value: null]
+20:14:41.089 request:
+1 > GET https://gorest.co.in/public/v1/users/7255
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+
+20:14:42.793 response time in milliseconds: 1701.24
+1 < 404
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7b2def9b3860e164-ORD
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 05 Apr 2023 01:14:44 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZsdsmpdY95NowGZpLfFh52YKzevqlAp6cTjoFlw1ujocgjHRZyEEvJSDnZnok9ExmUqN9B8HBwwvJY3LR3SV8EMx8VzfZH5ggzt7xJAFb74diek1Xv6ERpCh5METmq8%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 3430028a-b4f1-4f96-bcaf-67054e4e04af
+1 < x-runtime: 0.020142
+1 < x-xss-protection: 0
+{"meta":null,"data":{"message":"Resource not found"}}
+

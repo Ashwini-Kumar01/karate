@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>src.test.java.features.Login</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">4</div>
+            
+<div class="bg-danger" id="nav-fail">1</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2023-04-05 04:38:59 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:6]">[1:6] Hello Ashwini </a>
+</div>
+<div class="nav-item passed">
+<a href="#[2:10]">[2:10] Hello Dyanda </a>
+</div>
+<div class="nav-item passed">
+<a href="#[3:16]">[3:16] JSON reader </a>
+</div>
+<div class="nav-item failed">
+<a href="#[4:59]">[4:59] Get User Details </a>
+</div>
+<div class="nav-item passed">
+<a href="#[5:75]">[5:75] User Not Found </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/Login.feature</span><span class="feature-description">Print Hello Ashwini</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:6]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:6]</span><span class="scenario-name">Hello Ashwini </span>
+</div>
+<div class="scenario-time passed">ms: 89</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:6]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:6]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* def query = {status:'active',gender: 'female'}</div>
+</div>
+<div class="time-cell passed">83</div>
+</div>
+<div class="preformatted" data-parent="1">16:38:56.300 not a js function or feature file: [type: NULL, value: null]</div>
+<div class="step-row">
+<div class="step-container" id="2">
+<div class="step-ref passed">2</div>
+<div class="step-cell passed">* print 'Ashwini'</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="preformatted" data-parent="2">16:38:56.410 [print] Ashwini</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">* print 'Dyanda'</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="preformatted" data-parent="3">16:38:56.413 [print] Dyanda</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[2:10]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [2:10]</span><span class="scenario-name">Hello Dyanda </span>
+</div>
+<div class="scenario-time passed">ms: 24</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[2:10]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[2:10]bg">
+<div class="step-container" id="4">
+<div class="step-ref bg-step">4</div>
+<div class="step-cell passed">* def query = {status:'active',gender: 'female'}</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="4">16:38:56.424 not a js function or feature file: [type: NULL, value: null]</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">* def total = 200</div>
+</div>
+<div class="time-cell passed">4</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">* def passed = 180</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref passed">7</div>
+<div class="step-cell passed">* def failed = 10</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">* print 'Skipped =' + (total - passed - failed)</div>
+</div>
+<div class="time-cell passed">14</div>
+</div>
+<div class="preformatted" data-parent="8">16:38:56.449 [print] Skipped =10</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[3:16]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [3:16]</span><span class="scenario-name">JSON reader </span>
+</div>
+<div class="scenario-time passed">ms: 33</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[3:16]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[3:16]bg">
+<div class="step-container" id="9">
+<div class="step-ref bg-step">9</div>
+<div class="step-cell passed">* def query = {status:'active',gender: 'female'}</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="9">16:38:56.458 not a js function or feature file: [type: NULL, value: null]</div>
+<div class="step-row">
+<div class="step-container" id="10">
+<div class="step-ref passed">10</div>
+<div class="step-cell passed">* def jsonObject =</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="10">{
+ "Actors": [
+   {
+     "name": "Tom Cruise",
+     "age": 56,
+     "Born At": "Syracuse, NY",
+     "Birthdate": "July 3, 1962",
+     "photo": "https://jsonformatter.org/img/tom-cruise.jpg",
+     "wife": null,
+     "weight": 67.5,
+     "hasChildren": true,
+     "hasGreyHair": false,
+     "children": [
+       "Suri",
+       "Isabella Jane",
+       "Connor"
+     ]
+   },
+   {
+     "name": "Robert Downey Jr.",
+     "age": 53,
+     "Born At": "New York City, NY",
+     "Birthdate": "April 4, 1965",
+     "photo": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg",
+     "wife": "Susan Downey",
+     "weight": 77.1,
+     "hasChildren": true,
+     "hasGreyHair": false,
+     "children": [
+       "Indio Falconer",
+       "Avri Roel",
+       "Exton Elias"
+     ]
+   }
+ ]
+}</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref passed">11</div>
+<div class="step-cell passed">* print jsonObject</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="preformatted" data-parent="11">16:38:56.465 [print] {
+  "Actors": [
+    {
+      "name": "Tom Cruise",
+      "age": 56,
+      "Born At": "Syracuse, NY",
+      "Birthdate": "July 3, 1962",
+      "photo": "https://jsonformatter.org/img/tom-cruise.jpg",
+      "wife": null,
+      "weight": 67.5,
+      "hasChildren": true,
+      "hasGreyHair": false,
+      "children": [
+        "Suri",
+        "Isabella Jane",
+        "Connor"
+      ]
+    },
+    {
+      "name": "Robert Downey Jr.",
+      "age": 53,
+      "Born At": "New York City, NY",
+      "Birthdate": "April 4, 1965",
+      "photo": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg",
+      "wife": "Susan Downey",
+      "weight": 77.1,
+      "hasChildren": true,
+      "hasGreyHair": false,
+      "children": [
+        "Indio Falconer",
+        "Avri Roel",
+        "Exton Elias"
+      ]
+    }
+  ]
+}</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref passed">12</div>
+<div class="step-cell passed">* print 'hello ' + jsonObject.Actors[1].children[1]</div>
+</div>
+<div class="time-cell passed">26</div>
+</div>
+<div class="preformatted" data-parent="12">16:38:56.491 [print] hello Avri Roel</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[4:59]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [4:59]</span><span class="scenario-name">Get User Details </span>
+</div>
+<div class="scenario-time failed">ms: 2723</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[4:59]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[4:59]bg">
+<div class="step-container" id="13">
+<div class="step-ref bg-step">13</div>
+<div class="step-cell passed">* def query = {status:'active',gender: 'female'}</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="13">16:38:56.497 not a js function or feature file: [type: NULL, value: null]</div>
+<div class="step-row">
+<div class="step-container" id="14">
+<div class="step-ref passed">14</div>
+<div class="step-cell passed">* def query1 = { id: 729051}</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="15">
+<div class="step-ref passed">15</div>
+<div class="step-cell passed">Given url 'https://gorest.co.in/public/v1/users'</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref passed"></div>
+<div class="step-cell comment">#And path '729055'</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="16">
+<div class="step-ref passed">16</div>
+<div class="step-cell passed">And params query</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="17">
+<div class="step-ref passed">17</div>
+<div class="step-cell passed">And params query1</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="18">
+<div class="step-ref passed">18</div>
+<div class="step-cell passed">When method GET</div>
+</div>
+<div class="time-cell passed">2702</div>
+</div>
+<div class="preformatted" data-parent="18">16:38:57.883 request:
+1 &gt; GET https://gorest.co.in/public/v1/users?status=active&amp;gender=female&amp;id=729051
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: gorest.co.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+
+16:38:59.202 response time in milliseconds: 1312.60
+1 &lt; 200
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 7b34f0f44991c55c-ORD
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 05 Apr 2023 21:39:00 GMT
+1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mWss%2F2Q0NtAdHrm%2FjAEe7Zg1zyvT2kHXBZ%2FvBH0QKvmPOBK2ixReax2gXR8mVmcy3U3NqTF6j2cJIUUYndswa6HKhzL5rv6PBvFjrZxGyOEvrgE6zla3unXdz2QpQpc%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 &lt; etag: W/"7d0fad3944b5884d753950e7824069d3"
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: e2827f37-9afa-4b60-b52c-4ad02c6f945f
+1 &lt; x-runtime: 0.036185
+1 &lt; x-xss-protection: 0
+{"meta":{"pagination":{"total":0,"pages":0,"page":1,"limit":10,"links":{"previous":null,"current":null,"next":null}}},"data":[]}</div>
+<div class="step-row">
+<div class="step-container" id="19">
+<div class="step-ref passed">19</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="20">
+<div class="step-ref passed">20</div>
+<div class="step-cell passed">* print response</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="20">16:38:59.204 [print] {
+  "data": [
+  ],
+  "meta": {
+    "pagination": {
+      "total": 0,
+      "pages": 0,
+      "limit": 10,
+      "links": {
+        "next": null,
+        "current": null,
+        "previous": null
+      },
+      "page": 1
+    }
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="21">
+<div class="step-ref passed">21</div>
+<div class="step-cell passed">* def jsonResponse = response</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="22">
+<div class="step-ref passed">22</div>
+<div class="step-cell passed">* def count = jsonResponse.data.length</div>
+</div>
+<div class="time-cell passed">11</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="23">
+<div class="step-ref failed">23</div>
+<div class="step-cell failed">* match count == 1</div>
+</div>
+<div class="time-cell failed">6</div>
+</div>
+<div class="preformatted" data-parent="23">16:38:59.222 assertion failed: path: $, actual: 0, expected: 1, reason: not equal (Integer)
+Login.feature:70 - path: $, actual: 0, expected: 1, reason: not equal (Integer)</div>
+<div class="step-row">
+<div class="step-container" id="24">
+<div class="step-ref skipped">24</div>
+<div class="step-cell skipped">* def username = jsonResponse.data[0].name</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="25">
+<div class="step-ref skipped">25</div>
+<div class="step-cell skipped">* print username</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="26">
+<div class="step-ref skipped">26</div>
+<div class="step-cell skipped">* match username == 'Gopi Kakkar'</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[5:75]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [5:75]</span><span class="scenario-name">User Not Found </span>
+</div>
+<div class="scenario-time passed">ms: 414</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[5:75]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[5:75]bg">
+<div class="step-container" id="27">
+<div class="step-ref bg-step">27</div>
+<div class="step-cell passed">* def query = {status:'active',gender: 'female'}</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="27">16:38:59.229 not a js function or feature file: [type: NULL, value: null]</div>
+<div class="step-row">
+<div class="step-container" id="28">
+<div class="step-ref passed">28</div>
+<div class="step-cell passed">Given url 'https://gorest.co.in/public/v1/users'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="29">
+<div class="step-ref passed">29</div>
+<div class="step-cell passed">And path '7255'</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="30">
+<div class="step-ref passed">30</div>
+<div class="step-cell passed">When method GET</div>
+</div>
+<div class="time-cell passed">411</div>
+</div>
+<div class="preformatted" data-parent="30">16:38:59.233 request:
+1 &gt; GET https://gorest.co.in/public/v1/users/7255
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: gorest.co.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+
+16:38:59.637 response time in milliseconds: 395.96
+1 &lt; 404
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 7b34f0fa19de8140-ORD
+1 &lt; Cache-Control: no-cache
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 05 Apr 2023 21:39:01 GMT
+1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IeUVBbmFd3TxkeUYALzJW28BvEy35yw2lh5CGiFO%2FLSStUdO3GJdvI7ltWfmPzFH95bRVOwyNMDyRWnXfntO3QLBZE53DG03agJZHbw6QjTYmOKvAHzQEPgSfjtUkhc%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: c3de28ac-6b7b-4af4-af32-33503feab3de
+1 &lt; x-runtime: 0.018852
+1 &lt; x-xss-protection: 0
+{"meta":null,"data":{"message":"Resource not found"}}</div>
+<div class="step-row">
+<div class="step-container" id="31">
+<div class="step-ref passed">31</div>
+<div class="step-cell passed">Then status 404</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>
